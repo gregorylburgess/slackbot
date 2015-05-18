@@ -1,7 +1,7 @@
 # Django settings for slackbot project.
 import os
 
-Heroku = False
+Heroku = os.environ['Heroku']
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
