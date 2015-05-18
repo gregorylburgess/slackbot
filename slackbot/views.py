@@ -6,7 +6,7 @@ from django.utils import timezone
 from django.utils.timezone import utc
 from django.views.decorators.csrf import csrf_exempt
 from slackbot.settings import STATIC_URL, SLACK_POST_URL, SLACK_BOT_NAME
-import requests, json, urllib
+import random, requests, json, urllib
 
 
 #request the status page
